@@ -1,5 +1,6 @@
 # FirmwareUnpacker
 A simple yet powerful bash script to extract images from Samsung firmware
+Works on Linux! Maybe on WSL as well, not tested, make sure dependenicies are installed 
 
 Usage:
 
@@ -11,3 +12,7 @@ Usage:
 ```sh
 ./auto.sh
 ```
+
+# Dependencies 
+1.unzip
+2.lz4
