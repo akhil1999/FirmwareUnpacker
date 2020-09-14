@@ -24,6 +24,7 @@ cd images
 echo " "
 echo "Extracting images..."
 lz4 -d boot.img.lz4 boot.img
+lz4 -d recovery.img.lz4 recovery.img
 lz4 -d system.img.lz4 system.img
 lz4 -d vendor.img.lz4 vendor.img
 lz4 -d product.img.lz4 product.img
